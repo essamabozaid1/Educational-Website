@@ -1,0 +1,112 @@
+/* start login form */
+
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #f4f4f4;
+		}
+		.login {
+				/*border: 3px solid #f1f1f1;*/
+				margin: 100px auto;
+				width:300px;
+		}
+
+		.login input[type=text],.login input[type=password] {
+			width: 100%;
+		    padding: 12px 20px;
+		    margin-bottom:  10px;
+		    border: 1px solid #ccc;
+		    display: block;
+		    box-sizing: border-box;
+		}
+		.login input[type=text]:focus,.login input[type=password]:focus{
+			outline:solid 2px #4CAF50;
+			 
+		}
+
+
+		.login button {
+		    background-color: #4CAF50;
+		    color: white;
+		    padding: 14px 20px;
+		    margin: 8px 0;
+		    border: none;
+		    cursor: pointer;
+		    width:100%;
+		}
+
+		.login button:hover {
+		    opacity: 0.8;
+		}
+
+
+		/* client style Manage */
+
+		.main-table tr:first-child td{
+			background-color: #4CAF50;
+			color: #fff;
+		}.manage_images img{
+			width:50px;
+			height: 50px;	
+
+		}
+		
+		/* Category style Manage */
+		.ordering a{
+			color:#888;
+			text-decoration: none;
+
+		}.ordering .active{
+			color:#f00;
+
+		}
+
+		/* Stats style Manage */
+		.stat{
+			padding: 20px;
+			font-size: 15px;
+			color: #fff;
+			border-radius: 10px;
+
+		}
+		.stat a{
+			
+			color: #fff;
+			text-decoration: none;
+
+		}.stat a:hover{
+			
+			color: #fff;
+			text-decoration: none;
+
+		}
+		.stat span{
+			display:block; 
+			font-size: 60px;
+		}
+
+		/* News  Manage Page  style*/
+		.events{
+
+		}
+		.events img{
+			float:left;
+			width: 200px ;
+			height: 200px;
+			margin-right: 10px;
+		}.events .events-body{
+
+		}
+		.events .date{
+			color:#4CAF50;
+			font-size: 20px;
+			display: block;
+			float: right;
+		}
+		.events .header{
+			color:#4CAF50;
+		}.events a{
+			margin-left: 10px;
+		}
+
+
+

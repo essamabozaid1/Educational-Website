@@ -1,0 +1,87 @@
+.event_items
+{
+	direction: rtl;
+}
+.event_name ,.event_name:hover,.event_location,.event_content p,.event_content
+{
+	text-align: right;
+}
+.services
+{
+	direction: rtl;
+
+}
+.service_item p
+{
+	text-align: right;
+}
+/*------footer ----*/
+.newsletter_email{
+	text-align: right;
+	padding-right: 10px;
+}
+
+.footer_content{
+	text-align: right;
+	direction: rtl;
+}
+.footer_content .logo_container
+{
+	padding-right:  0px;
+}
+.input_field,.text_field{
+	text-align: right;
+	padding-right: 10px;
+}
+
+/*-----------*/
+.header{
+	direction: rtl;
+}.main_nav_item:last-child
+{
+	margin-right: 30px;
+}
+.main_nav_item a{
+	font-size: 20px;
+	font-weight: 800;
+}.logo span{
+	margin-right: 5px;
+}
+.logo_container{
+	padding-right: 76px;
+	padding-left: initial;
+}
+.header_side span{
+	direction: ltr;
+	padding-right:  12px;
+}
+/*------------------*/
+.news
+{
+	direction: rtl;
+	text-align: right;
+}
+.news_post_title_container
+{
+	padding-right: 31px;
+	padding-left: 0px;
+}
+.prev {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+	right: initial;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/*-------------Contact-----*/
+.contact_title,.about_title,.about_text
+{
+	text-align: right;
+}
+.contact_info{
+	direction: rtl;
+	text-align: right;
+}
